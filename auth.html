@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Авторизация и Регистрация</title>
+    <link rel="icon" href="img/icon.svg">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="modal" class="hidden">
+        <div class="modal-content">
+
+            <span class="close">&times;</span>
+            <div class="var_reg"> <button id="loginBtn">Войти</button>
+                <button id="registerBtn">Регистрация</button>
+            </div>
+            <form id="authForm" class="form_auth">
+                <div class="head">
+                    <h2 id="formTitle">Вход</h2>
+                </div>
+            <input type="text" id="username" placeholder="Имя пользователя" required>
+                <input type="password" id="password" placeholder="Пароль" required>
+                  <button style="width: 50%; text-align: center;" type="submit">Отправить</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
